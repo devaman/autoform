@@ -1,0 +1,110 @@
+.backgroun
+{
+
+    height: 1000px;
+    width: 1000px;
+    
+    background-color: transparent;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+    
+  .bo{
+    height: 1000px;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(to left, #EBEBEB, #7D7D7D); /* Standard syntax (must be last) */
+	border-radius: 15px;
+  }
+
+}
+.c
+{
+
+    height: 100%;
+
+    background-color: transparent;
+}
+#l{
+    margin-left: 20%;
+    margin-top:5%;
+    border-top:hidden;
+    border-left: hidden;
+    border-right:hidden;
+    border-bottom:  1px ;
+    background-color: transparent;
+    outline: none;
+    width: 250px;
+    height: 20px;
+   }
+
+#hr{
+    margin: ;
+}
+#temp
+{
+	margin-left: 110px;
+	
+
+}
+.o{
+	 background-color: transparent;
+    width: 40%;
+    border: 0.5px solid gray;
+    padding: 25px;
+    margin-left: 13.5%;
+    height: 90%;
+    position: absolute;
+    margin-top: 8%;
+    alignment-baseline: central;
+     border-radius: 15px;
+
+  }
+
+ .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: gray;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-right: hidden;
+    border-left : hidden;
+    border-bottom : hidden;
+    border-top : hidden;
+    outline: none;
+}
+.button1 {
+    background-color: transparent; 
+    color: black; 
+    border: 2px transparent;
+    border-radius: 25px;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.birthdate{
+	border-right: none;
+   	border-left: none;
+    border-top: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom-color: solid gray;: 
+
+}
+.birthdate:hover{
+	background-color: white;
+}
