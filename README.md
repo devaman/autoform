@@ -24,11 +24,11 @@ A step by step series of examples that tell you how to get this repo in your com
 1) Forking the repo.
 2) Cloning the repo. eg
 ```bash
-    git clone https://github.com/[your-username]/spaceswords-posts.git
+    git clone https://github.com/[your-username]/autoform.git
 ```
 3) Creating your own branch.
 ```bash
-git checkout -b my-post-name
+git checkout -b branch-name
 ```
 4) Edit /modify the js.lib.js file
 6) Perform 
@@ -45,7 +45,7 @@ git commit -m "some-message"
 ```bash
 git push origin [your-branch-name]
 ```
-9) Now go to Github and Send a Pull request to original repo.We will now review your Post and merge with the repo.And then your post will be published on blog .
+9) Now go to Github and Send a Pull request to original repo.We will now review your Post and merge with the repo.
 
 ## Main Contributors
 
@@ -54,7 +54,7 @@ git push origin [your-branch-name]
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/devaman/autoform/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
