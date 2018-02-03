@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Js Lib</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="js.lib.js"></script>
+</head>
+
+<body>
+    <button>ClickMe</button>
+    <script>
+        let newHello = new HelloLib({
+            name:{
+                type:"text",
+                placeholder:"Name",
+                class:"input-name",
+            },
+            price:{
+                type:"text",
+                placeholder:"Add Amount",
+                format:"amount"
+            }
+        });
+        let btn=document.getElementsByTagName(
+            "button"
+        )[0];
+        btn.addEventListener('click',function () {
+            newHello.init();
+        })
+        newHello.init();
+    </script>
+</body>
+
+</html>
