@@ -1,34 +1,87 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Js Lib</title>
+    <title>AutoForm JS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="js.lib.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js"></script>
 </head>
 
 <body>
-    <button>ClickMe</button>
+    <button>ClickMe</button><br>
+    <form action="">
+  <!--
+  <div>
+    <label for="cc">Credit Card</label>
+
+    <input id="cc" type="text" data-inputmask="'mask': '9999 9999 9999 9999'" onkeypress="cc_brand_id(event)">
+  </div>-->
+
+  <div>
+    <label for="date">Date</label>
+    <input id="date" data-inputmask="'alias': 'date'" />
+  </div>
+
+  <div>
+    <label for="phone">Phone</label>
+    <!-- or set via JS -->
+    <input id="phone" type="text" />
+  </div>
+
+</form>
     <script>
+    $("#cc").inputmask();
+    $("#phone").inputmask({"mask": "(+99) 99999-99999"});
         let newHello = new HelloLib({
             name:{
-                type:"text",
+                type:"inputtext",
                 placeholder:"Name",
                 class:"input-name",
+                //prior:1
             },
             price:{
-                type:"text",
+                type:"inputtext",
                 placeholder:"Add Amount",
-                format:"amount"
+                format:"amount",
+                //prior:2
             },
             button:{
                 type:"submit",
                 value:"Send",
-                class:"btn-primay"
-
+                class:"btn",
+                //prior:3
+            },
+            cardfield:{
+              type:"cardnum",
+              value:"Enter your SBI Card Number",
+              class:"cardcls",
+            },
+            textBox:{
+                type:"textarea",
+                value:"Type your text here",
+                class:"text-box",
+                row:4,
+                col:3
+                //prior:4
+            },
+            dropdown:{
+              type:"dropd",
+              class:"dropcls",
+              options:{
+                first:"India",
+                second:"Australia",
+                third:"Japan",
+                fourth:"China"
+              }
+            },
+            phone:{
+              type:"phonenum",
+              class:"phclass",
+              
             }
         });
         let btn=document.getElementsByTagName(
