@@ -4,31 +4,41 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Js Lib</title>
+    <title>AutoForm JS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="js.lib.js"></script>
 </head>
 
 <body>
-    <button>ClickMe</button>
+    <button>ClickMe</button><br>
     <script>
         let newHello = new HelloLib({
             name:{
-                type:"text",
+                type:"inputtext",
                 placeholder:"Name",
                 class:"input-name",
+                //prior:1
             },
             price:{
-                type:"text",
+                type:"inputtext",
                 placeholder:"Add Amount",
-                format:"amount"
+                format:"amount",
+                //prior:2
             },
             button:{
                 type:"submit",
                 value:"Send",
-                class:"btn-primay"
-
+                class:"btn",
+                //prior:3
+            },
+            textBox:{
+                type:"textarea",
+                value:"Type your text here",
+                class:"text-box",
+                row:4,
+                col:3
+                //prior:4
             }
         });
         let btn=document.getElementsByTagName(
