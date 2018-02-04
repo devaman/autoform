@@ -51,6 +51,9 @@ git push origin [your-branch-name]
 
 * [**devaman** ](https://github.com/devaman)
 * [**aryankhandal0** ](https://github.com/aryankhandal0)
+* [**sahaj21** ](https://github.com/sahaj21)
+* [**ArpanSamariya** ](https://github.com/ArpanSamariya)
+
 
 ## License
 
