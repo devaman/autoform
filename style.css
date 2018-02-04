@@ -1,0 +1,101 @@
+.input-name{
+
+}
+form{
+  margin-left: 36%;
+  background-color: white;
+  padding: 10px;
+  width: 450px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 2px gray;
+}
+input {
+  font-family: monospace;
+}
+label {
+  display: block;
+}
+div {
+  margin: 0 0 1rem 0;
+}
+#nameTextField{
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  width:175px;
+  height:30px;
+  margin-top:25px;
+  margin-bottom: 10px;
+}
+#priceTextField{
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  width:175px;
+  height:30px;
+  margin-bottom: 10px;
+display: block;
+}
+#sendButton{
+  display: block;
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  width:175px;
+  margin-bottom: 10px;
+  height:30px;
+}
+#cardTextField{
+  display: block;
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  width:175px;
+  margin-bottom: 10px;
+  height:30px;
+}
+#textArea{
+  display: block;
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  width:175px;
+  height:30px;
+}
+#dropDown{
+  display: block;
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  width:175px;
+  height:30px;
+  margin-bottom: 10px;
+}
+#phNumber{
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  width:125px;
+  margin-bottom: 10px;
+  height:30px;
+
+}
+#phDropDown{
+  margin: 0 auto;
+  text-transform: none;
+    height: 30px;
+    margin-left: 29.5%;
+  margin-bottom: 10px;
+  height:30px;
+}
+#readOnlyText{
+  display: block;
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  width:175px;
+  margin-bottom: 10px;
+  height:30px;
+}
