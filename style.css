@@ -1,6 +1,8 @@
 body{
+  background-image: url('background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -107,4 +109,12 @@ display: block;
   width:275px;
   margin-bottom: 10px;
   height:30px;
+}
+@media(max-width: 455px){
+  form{
+    width: auto;
+  }
+  #phDropDown{
+    margin-left:  2%;
+  }
 }
