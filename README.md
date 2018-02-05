@@ -4,7 +4,7 @@
 [![Codecov](https://img.shields.io/codecov/c/github/codecov/example-python.svg)](#) [![Shippable](https://img.shields.io/shippable/5444c5ecb904a4b21567b0ff.svg)](#)
 [![npm](https://img.shields.io/npm/l/express.svg)](#)
 
-A javascript library to create login ,registration forms and many more types of forms.[Click here for demo]('https://devaman.github.io/autoform/demo.html')
+A javascript library to create login ,registration forms and many more types of forms.[Click here for demo](https://devaman.github.io/autoform/demo.html)
 
 ## Getting Started
 
