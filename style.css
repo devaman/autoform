@@ -2,7 +2,6 @@ body{
   background-image: url('background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
   display: flex;
   flex-flow: column;
   align-items: center;
