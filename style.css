@@ -116,4 +116,8 @@ display: block;
   #phDropDown{
     margin-left:  0%;
   }
+  #phNumber{
+    width: 210px;
+  }
+
 }
