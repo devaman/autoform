@@ -1,5 +1,5 @@
 # AutoForm js
-<img src="https://raw.githubusercontent.com/devaman/autoform/master/images/autoform.png" width="300"/>
+<img src="https://raw.githubusercontent.com/devaman/autoform/master/images/auto.png" width="300"/>
 
 [![Codecov](https://img.shields.io/codecov/c/github/codecov/example-python.svg)](#) [![Shippable](https://img.shields.io/shippable/5444c5ecb904a4b21567b0ff.svg)](#)
 [![npm](https://img.shields.io/npm/l/express.svg)](#)
